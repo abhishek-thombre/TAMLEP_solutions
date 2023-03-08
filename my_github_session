@@ -1,0 +1,176 @@
+Script started on 2023-03-08 22:45:57+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="35"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;abhi@TIGER0857: ~[01;32mabhi@TIGER0857[00m:[01;34m~[00m$ git [K[K[K[Kcd TAMLEP_solutions/
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git ststu[K[K[Katus
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmy_unix_session[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ a[Kgit add .
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   my_unix_session[m
+
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ echo "Here is n[Kmy working sesi[Ksion for github and unix shell script commans[K[Kand[K[K[Knds [K[K[K[K[K[Kamn[K[Knds [K[K[K[K[K[Kmmands I[K[K. I hope you got [K[K through t[Kit and find all  the execrs[K[K[Krcise w[Kattemplted[K[K[K[Kted" > README>MD[K[K[K,[K.md
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ ls
+[?2004lREADME.md  my_unix_session
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ nano README.md 
+[?2004l[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;68H(B[0;7m[ Reading... ](B[m[33;67H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                                                          README.md                                                                   [1;147H(B[m[34d(B[0;7m^G(B[m Help[34;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[34;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[34;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket[35d(B[0;7m^X(B[m Exit[35;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[35;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[35;113H(B[0;7mM-6(B[m Copy[35;129H(B[0;7m^Q(B[m Where Was[2dHere is my working session for github and unix shell script commands. I hope you go through it and find all the exercise attempted[?12l[?25h[?25l[33d[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME.md[m
+
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git add .
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README.md[m
+	[32mnew file:   my_unix_session[m
+
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git status -s
+[?2004l[32mA[m  README.md
+[32mA[m  my_unix_session
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ cat .gitignore
+[?2004lcat: .gitignore: No such file or directory
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ touch .gitignore
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ cat .gitignore
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ nano .git[Ktignore 
+[?2004l[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;68H(B[0;7m[ Reading... ](B[m[33;67H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2                                                         .gitignore                                                                   [1;147H(B[m[34d(B[0;7m^G(B[m Help[34;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[34;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[34;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket[35d(B[0;7m^X(B[m Exit[35;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[35;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[35;113H(B[0;7mM-6(B[m Copy[35;129H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[33d[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ cat .gitignore *.[oa]
+[?2004lcat: '*.[oa]': No such file or directory
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ cat .gitignore *.[oa][C[C[1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][1P*.[oa][C[C[C[C[C[C .gitignore
+[?2004lcat: '*.[oa]': No such file or directory
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ cat --help
+[?2004lUsage: cat [OPTION]... [FILE]...
+Concatenate FILE(s) to standard output.
+
+With no FILE, or when FILE is -, read standard input.
+
+  -A, --show-all           equivalent to -vET
+  -b, --number-nonblank    number nonempty output lines, overrides -n
+  -e                       equivalent to -vE
+  -E, --show-ends          display $ at end of each line
+  -n, --number             number all output lines
+  -s, --squeeze-blank      suppress repeated empty output lines
+  -t                       equivalent to -vT
+  -T, --show-tabs          display TAB characters as ^I
+  -u                       (ignored)
+  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
+      --help     display this help and exit
+      --version  output version information and exit
+
+Examples:
+  cat f - g  Output f's contents, then standard input, then g's contents.
+  cat        Copy standard input to standard output.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cat>
+or available locally via: info '(coreutils) cat invocation'
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ touch[K[K[K[K[Knanon .gti[K[K[Kgitignore 
+[?2004lCommand 'nanon' not found, did you mean:
+  command 'nano' from deb nano (6.2-1)
+  command 'nfanon' from deb nfdump (1.6.23-1)
+  command 'nanoc' from deb nanoc (4.12.5-3ubuntu1)
+Try: sudo apt install <deb name>
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ nanon .gitignore [1P
+[?2004l[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;68H(B[0;7m[ Reading... ](B[m[33;67H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2                                                         .gitignore                                                                   [1;147H(B[m[34d(B[0;7m^G(B[m Help[34;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[34;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[34;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket[35d(B[0;7m^X(B[m Exit[35;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[35;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[35;113H(B[0;7mM-6(B[m Copy[35;129H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;83H(B[0;7m*[147G(B[m[?12l[?25h[2d*[?25l[?12l[?25h[[?25l[?12l[?25h [?25l[?12l[?25h.[?25l[?12l[?25h[[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25h][?25l[3d[?12l[?25h[?25l[?12l[?25h*[?25l[?12l[?25h~[?25l[34;17H[21X[34;38H(B[0;7mM-D(B[m DOS Format   [34;65H          (B[0;7mM-A(B[m Append[20X[34;112H(B[0;7mM-B(B[m Backup File[K[35;2H(B[0;7mC(B[m Cancel[17G[21X[35;38H(B[0;7mM-M(B[m Mac Format     [35;65H          (B[0;7mM-P(B[m Prepend[19X[35;112H(B[0;7m^T(B[m Browse[K[33d(B[0;7mFile Name to Write: .gitignore                                                                                                                      [33;31H(B[m[?12l[?25h[?25l[33;67H[1K (B[0;7m[ Writing... ](B[m[K[1;83H(B[0;7m [147G(B[m[33;66H(B[0;7m[ Wrote 2 lines ](B[m[34;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[34;65H(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[112G (B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket[35;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[35;65H(B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[112G (B[0;7mM-6(B[m Copy[35;129H(B[0;7m^Q(B[m Where Was[?12l[?25h[3;3H[?25l[33d[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README.md[m
+	[32mnew file:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git diff
+[?2004l[?1h=[K[?1l>[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git commit -m 'Fir[K[K[KOnly unix session added"[K'
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <abhi@TIGER0857.tigeranalytics.local>) not allowed
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git config --global user.eam[K[Kmail "abhishek.tombre[K[K[K[K[Khombre@tigeranalytics.com"
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git config --global userm[K,[K.name "abhishek-thombre"
+[?2004l[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git config --global user.name "abhishek-thombre"email "abhishek.thombre@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pmmit -m 'Only unix session added'
+[?2004l[main (root-commit) 7b14e85] Only unix session added
+ 2 files changed, 1069 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 my_unix_session
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git push
+[?2004lUsername for 'https://github.com': abhishek-thombre
+Password for 'https://abhishek-thombre@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/abhishek-thombre/TAMLEP_solutions.git/'
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git pushcommit -m 'Only unix session added'push[K[K[K[K[K[K[K[K[Kgit congi[K[Kfig --list
+[?2004l[?1h=user.email=abhishek.thombre@tigeranalytics.com[m
+user.name=abhishek-thombre[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=https://github.com/abhishek-thombre/TAMLEP_solutions.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.main.remote=origin[m
+branch.main.merge=refs/heads/main[m
+[K[?1l>[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git congi[K[Kfig user,[K.name
+[?2004labhishek-thombre
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git push 
+[?2004lUsername for 'https://github.com': abhith  shtk  ek-thombre
+Password for 'https://abhishek-thombre@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/abhishek-thombre/TAMLEP_solutions.git/'
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ git push 
+[?2004lUsername for 'https://github.com': abhishek-thombre
+Password for 'https://abhishek-thombre@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 17.58 KiB | 4.39 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/abhishek-thombre/TAMLEP_solutions.git
+ * [new branch]      main -> main
+[?2004h]0;abhi@TIGER0857: ~/TAMLEP_solutions[01;32mabhi@TIGER0857[00m:[01;34m~/TAMLEP_solutions[00m$ cd ..
+[?2004l[?2004h]0;abhi@TIGER0857: ~[01;32mabhi@TIGER0857[00m:[01;34m~[00m$ exit 
+[?2004lexit
+
+Script done on 2023-03-08 23:13:52+05:30 [COMMAND_EXIT_CODE="0"]
